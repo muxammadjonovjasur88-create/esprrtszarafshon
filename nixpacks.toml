@@ -2,7 +2,7 @@
 nixPkgs = ["python311"]
 
 [phases.install]
-cmds = ["python3.11 -m pip install -r requirements.txt"]
+cmds = ["python3.11 -m pip install aiogram==3.7.0"]
 
 [start]
 cmd = "python3.11 esports_bot/bot.py"
